@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aspose.android.asposewordsviewer">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <activity
+            android:name=".ChooserActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ViewerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.oasis.opendocument.text" />
+                <data android:mimeType="application/x-vnd.oasis.opendocument.text" />
+                <data android:mimeType="text/rtf" />
+                <data android:mimeType="application/rtf" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.odt" android:scheme="file" />
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.docx" android:scheme="file" />
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.doc" android:scheme="file" />
+                <data android:host="*" android:mimeType="*/*" android:pathPattern=".*\\.rtf" android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+        <!-- Declaration necessary for aFileChooser -->
+        <activity android:name="com.ipaulpro.afilechooser.FileChooserActivity" />
+
+        <service android:name=".ConversionService" />
+
+    </application>
+
+</manifest>

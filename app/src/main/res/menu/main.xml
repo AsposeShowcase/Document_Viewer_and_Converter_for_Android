@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_previous"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/action_previous"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_next"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="@string/action_next"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_convert"
+        android:title="@string/action_convert"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_convert_pdf"
+                android:title="@string/action_convert_pdf" />
+            <item
+                android:id="@+id/action_convert_docx"
+                android:title="@string/action_convert_docx" />
+            <item
+                android:id="@+id/action_convert_doc"
+                android:title="@string/action_convert_doc" />
+            <item
+                android:id="@+id/action_convert_odt"
+                android:title="@string/action_convert_odt" />
+            <item
+                android:id="@+id/action_convert_rtf"
+                android:title="@string/action_convert_rtf" />
+            <item
+                android:id="@+id/action_convert_html"
+                android:title="@string/action_convert_html" />
+        </menu>
+    </item>
+</menu>

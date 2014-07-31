@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aspose.Words Viewer</string>
+
+    <string name="action_convert">Convert</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_convert_pdf">Portable Documment Format (PDF)</string>
+    <string name="action_convert_docx">Microsoft Word 2007 (DOCX)</string>
+    <string name="action_convert_doc">Microsoft Word 2003 (DOC)</string>
+    <string name="action_convert_odt">OpenDocument Text (ODT)</string>
+    <string name="action_convert_rtf">Rich Text Format</string>
+    <string name="action_convert_html">Web Page</string>
+
+    <string name="dropbox_app_key">xmm5ezm6i0rlssy</string>
+    <string name="aspose_license_asset_file">Aspose.Total.Android.lic</string>
+
+    <string name="choose_from_storage">Choose a Document</string>
+    <string name="choose_from_dropbox">Open from Dropbox</string>
+
+    <string name="msg_choose_source">Open a document</string>
+    <string name="no_input_file">No document to open</string>
+    <string name="msg_document_conversion_started">Document is now being converted in background. You will be notified when conversion is complete.</string>
+    <string name="msg_input_file_is_corrupt">Document seems to be corrupt. Cannot open it.</string>
+    <string name="msg_input_file_unsupported">Unsupported document.</string>
+    <string name="msg_input_file_io_exception">Cannot read document from source.</string>
+    <string name="msg_input_file_unknown_error">Could not load document.</string>
+
+</resources>
