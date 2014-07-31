@@ -43,7 +43,7 @@ following files from aFileChooser project to specified location in your project.
 | `aFileChooser/src/*` | `aFileChooser/src/main/java/` |
 | `aFileChooser/AndroidManifest.xml` | `aFileChooser/src/main/AndroidManifest.xml` |
 
-## aFileChooser
+## Dropbox Android Chooser SDK
 
 Go to [Dropbox Android Chooser SDK](https://www.dropbox.com/developers/dropins/chooser/android) and
 download it. Copy the following files from Dropbox Android Chooser SDK to specified
