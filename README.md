@@ -18,13 +18,13 @@ you need to add to specific directories. Afterwith, your project will be ready t
 
 # Dependencies
 
-## Aspose.Words for Android
+### Aspose.Words for Android
 
 Go to [Aspose.Words for Android page](http://www.aspose.com/android/word-component.aspx) and
 download it. From the archive, copy `Aspose.Words.1.9.0.jdk16.jar` (or any newer version) to
 `app/libs` directory of your project.
 
-## Aspose License
+### Aspose License
 
 The project works without a license, with limitations. To remove limitations, you can buy or acquire
 a [temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx).
@@ -32,7 +32,7 @@ a [temporary license](http://www.aspose.com/corporate/purchase/temporary-license
 Copy the license file to `app/src/main/assets` directory in your project. If your license filename
 if different than `Aspose.Total.Android.lic`, update it in `app/src/main/res/values/strings.xml`.
 
-## aFileChooser
+### aFileChooser
 
 Go to [aFileChooser project](https://github.com/iPaulPro/aFileChooser) and download it. Copy the
 following files from aFileChooser project to specified location in your project.
@@ -43,7 +43,7 @@ following files from aFileChooser project to specified location in your project.
 | `aFileChooser/src/*` | `aFileChooser/src/main/java/` |
 | `aFileChooser/AndroidManifest.xml` | `aFileChooser/src/main/AndroidManifest.xml` |
 
-## Dropbox Android Chooser SDK
+### Dropbox Android Chooser SDK
 
 Go to [Dropbox Android Chooser SDK](https://www.dropbox.com/developers/dropins/chooser/android) and
 download it. Copy the following files from Dropbox Android Chooser SDK to specified
