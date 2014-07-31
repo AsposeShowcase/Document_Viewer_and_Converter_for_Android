@@ -1,7 +1,5 @@
 ## Document Viewer and Converter for Android
 
-![](http://www.aspose.com/blogs/wp-content/uploads/2014/07/device-2014-07-31-20345hfjhf9.png)
-
 Document Viewer and Converter for Android is a sample project that demonstrates how to use [Aspose.Words for
 Android](http://www.aspose.com/android/word-component.aspx) in your Android application to view
 and convert Word documents to different formats. User can either choose the document from
@@ -12,6 +10,8 @@ first to JPEG image and cached in memory to retrieve quickly when user navigates
 or rotate screen. All operations are performed using `AsyncTask` to keep UI thread working fine.
 
 Conversion is done by an `IntentService` and user gets progress in Notification area.
+
+![](http://www.aspose.com/blogs/wp-content/uploads/2014/07/device-2014-07-31-20345hfjhf9.png)
 
 ## Setup
 
