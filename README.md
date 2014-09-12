@@ -28,8 +28,8 @@ download it. From the archive, copy `Aspose.Words.1.9.0.jdk16.jar` (or any newer
 
 ### Aspose License
 
-The project works without a license, with limitations. To remove limitations, you can buy or acquire
-a [temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx).
+The project works without a license, with limitations. To remove limitations, you can acquire
+a free [temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx) or [buy a full license](http://www.aspose.com/purchase/default.aspx).
 
 Copy the license file to `app/src/main/assets` directory in your project. If your license filename
 if different than `Aspose.Total.Android.lic`, update it in `app/src/main/res/values/strings.xml`.
